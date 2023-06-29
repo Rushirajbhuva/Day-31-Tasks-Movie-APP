@@ -127,6 +127,53 @@ body{
     width: 200px;
 }
 
-featured-desc{
-    width: 50px;
+.featured-desc{
+    width: auto;
+    margin: 30px 0;
+}
+
+.profile-picture{
+    size-adjust: auto;
+}
+
+.featured-button{
+    background-color: rgb(39, 238, 59);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: bold;
+}
+
+.movie-list-container{
+    padding: 20px;
+}
+
+.movie-list{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.movie-list-item{
+    margin-right: 30px;
+}
+
+.movie-list-item :hover .movie-list-item{
+    transform:scale(1.5);
+}
+.movie-list{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.movie-list-item{
+    margin-right: 30px;
+}
+.movie-list-item-img{
+    width: 270px;
+    height: 200px;
+    object-fit: center;
 }
