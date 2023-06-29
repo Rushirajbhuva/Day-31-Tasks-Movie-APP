@@ -119,9 +119,14 @@ body{
 
 .featured-content{
     height: 50vh;
+    padding: 50px;
     background-color: rgb(237, 124, 83);
 }
 
 .featured-title{
-    width: 250px;
+    width: 200px;
+}
+
+featured-desc{
+    width: 50px;
 }
