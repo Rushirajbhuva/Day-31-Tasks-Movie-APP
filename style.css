@@ -231,7 +231,7 @@ body{
 
 .movie-list-item-button{
     padding: 10px;
-    background-color:yellowgreen;
+    background-color:rgb(8, 226, 0);
     color:white;
     border-radius: 10%;
     border-radius: none;
@@ -242,4 +242,14 @@ body{
     left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
+}
+
+.arrow{
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right :0;
+    color: lightgray;
+    opacity: 5;
+    cursor: pointer;
 }
